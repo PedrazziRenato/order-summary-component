@@ -22,6 +22,8 @@ body {
     background-image: url(../images/pattern-background-desktop.svg);
     background-color: #E0E8FF;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
