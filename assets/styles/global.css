@@ -20,9 +20,8 @@
 
 body {
     background-image: url(../images/pattern-background-desktop.svg);
+    background-color: #E0E8FF;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +29,10 @@ body {
 }
 
 .container {
-    
+    border-radius: 20px;
     text-align: center;
     width: 450px;
     background-color: white;
-    
-
 }
 
 .background-image img {
@@ -46,10 +43,11 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
+
 }
 
 .text {
-    
     width: 290px;
     margin: auto;
     font-family: var(--font-family);
@@ -75,7 +73,7 @@ section {
     background-color: var(--color-pale-blue-secondary);
     width: 350px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 25px;
     
@@ -85,6 +83,7 @@ section {
         h2 {
             font-size: var(--font-size);
             font-weight: var(--font-weight-lg);
+            margin-bottom: 5px;
         }
         span {
             color: #878995;
@@ -94,5 +93,47 @@ section {
 
     .change a{
         color: var(--color-blue-primary);
+        font-weight: var(--font-weight-md);
     }
+
+    .change a:hover {
+        color: #7A6FE9;
+        text-decoration: none;
+    }
+}
+
+.button-link {
+    text-decoration: none;
+    margin-bottom: 35px;
+    box-shadow: 0px 25px 17px #E3E0FD ;
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 360px;
+        height: 50px;
+        background-color: var(--color-blue-primary);
+        color: white;
+        font-weight: var(--font-weight-md);
+        font-family: var(--font-family);
+        font-size: var(--font-size);
+        border-radius: 10px;
+    }
+}
+
+.button:hover {
+    background-color: #766CF1;
+}
+
+.button-link2 {
+    text-decoration: none;
+    color: #878995;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-md);
+    margin-bottom: 55px;
+}
+
+.button-link2:hover {
+    color:#16254C ;
 }
